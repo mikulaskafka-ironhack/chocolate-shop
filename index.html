@@ -2,25 +2,58 @@
 <html>
   <head>
 
-<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MF2JMD2V');</script>
-<!-- End Google Tag Manager -->
-    
-    <title>My Chocolate Shop</title>
+<title>My Chocolate Shop</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    
+    <style>
+      body {
+        background-color: #f0f8ff; /* Light Alice Blue background */
+        color: #003366; /* Dark blue text for readability */
+      }
+      header, nav {
+        background-color: #00509e; /* Rich blue header and navigation */
+        color: white;
+      }
+      nav ul li a {
+        color: white; 
+      }
+      .chocolate-card {
+        background-color: #ffffff; /* Keep cards white so images pop */
+        border: 1px solid #cce6ff; /* Light blue border */
+      }
+      .add-to-cart-btn {
+        background-color: #0073e6; /* Blue buttons */
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        cursor: pointer;
+      }
+      .add-to-cart-btn:hover {
+        background-color: #00509e; /* Darker blue on hover */
+      }
+      h2, h3 {
+        color: #004080; /* Themed blue headings */
+      }
+      footer {
+        background-color: #003366; /* Deep blue footer */
+        color: white;
+      }
+      footer a {
+        color: #cce6ff; /* Lighter blue links in footer */
+      }
+    </style>
+    
   </head>
   <body>
 
-<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MF2JMD2V"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-    
-    <header>
+<header>
       <div class="logo">The Chocolate Shop</div>
     </header>
     <nav>
@@ -36,6 +69,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <img
         src="https://cdn.pixabay.com/photo/2015/10/02/12/00/chocolate-968457_960_720.jpg"
         alt="chocolate"
+        style="width: 100%; max-width: 600px; display: block; margin: 0 auto;"
       />
       <h2 id="featured">Featured Chocolates</h2>
       <div class="featured-container">
